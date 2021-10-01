@@ -1,0 +1,354 @@
+# Copyright (C) 2021 KPBSD CodeBase
+# This file is distributed under the same license as the KPBSD CodeBase package.
+msgid ""
+msgstr ""
+"Project-Id-Version: KPBSD CodeBase\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Amos Roady\n"
+"Report-Msgid-Bugs-To: KPBSD CodeBase\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. translators: 1: comment count number, 2: title.
+#: ../kpbsd-codebase/comments.php:44
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../kpbsd-codebase/comments.php:38
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: ../kpbsd-codebase/comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: ../kpbsd-codebase/header.php:36
+msgid "Skip to content"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Accessibility/Component.php:69
+msgid "Expand child menu"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Accessibility/Component.php:70
+msgid "Collapse child menu"
+msgstr ""
+
+#. translators: 1: required WP version number, 2: required PHP version number, 3: available WP version number, 4: available PHP version number
+#: ../kpbsd-codebase/inc/back-compat.php:25
+msgid "KPBSD CodeBase requires at least WordPress version %1$s and PHP version %2$s. You are running versions %3$s and %3$s respectively. Please update and try again."
+msgstr ""
+
+#. translators: 1: required WP version number, 2: available WP version number
+#: ../kpbsd-codebase/inc/back-compat.php:30
+msgid "KPBSD CodeBase requires at least WordPress version %1$s. You are running version %2$s. Please update and try again."
+msgstr ""
+
+#. translators: 1: required PHP version number, 2: available PHP version number
+#: ../kpbsd-codebase/inc/back-compat.php:35
+msgid "KPBSD CodeBase requires at least PHP version %1$s. You are running version %2$s. Please update and try again."
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Comments/Component.php:132
+msgid "New comment(s)"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Customizer/Component.php:77
+msgid "Theme Options"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:65, ../kpbsd-codebase/inc/Nav_Menus/Component.php:68
+msgid "Primary"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:70
+msgid "Secondary"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:75
+msgid "Red"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:80
+msgid "Green"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:85
+msgid "Blue"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:90
+msgid "Yellow"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:95
+msgid "Black"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:100
+msgid "Grey"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:105
+msgid "White"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:110
+msgid "Dusty daylight"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:115
+msgid "Dusty sun"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:132
+msgid "Small"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:133
+msgid "S"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:138
+msgid "Medium"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:139
+msgid "M"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:144
+msgid "Large"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:145
+msgid "L"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:150
+msgid "Larger"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Editor/Component.php:151
+msgid "XL"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Lazyload/Component.php:89
+msgid "Lazy-load on (default)"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Lazyload/Component.php:90
+msgid "Lazy-load off"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Lazyload/Component.php:111
+msgid "Lazy-load images"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Lazyload/Component.php:114
+msgid "Lazy-loading images means images are loaded only when they are in view. Improves performance, but can result in content jumping around on slower connections."
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Sidebars/Component.php:72
+msgid "Sidebar"
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Sidebars/Component.php:74, ../kpbsd-codebase/inc/Sidebars/Component.php:85
+msgid "Add widgets here."
+msgstr ""
+
+#: ../kpbsd-codebase/inc/Sidebars/Component.php:83
+msgid "Footer widgets"
+msgstr ""
+
+#. translators: %s: stylesheet handle
+#: ../kpbsd-codebase/inc/Styles/Component.php:235
+msgid "Invalid theme stylesheet handle: %s"
+msgstr ""
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: ../kpbsd-codebase/inc/Template_Tags.php:54
+msgid "The theme templating component %1$s does not implement the %2$s interface."
+msgstr ""
+
+#. translators: %s: template tag name
+#: ../kpbsd-codebase/inc/Template_Tags.php:81
+msgid "The template tag %s does not exist."
+msgstr ""
+
+#. translators: 1: template tag method name, 2: component class name
+#: ../kpbsd-codebase/inc/Template_Tags.php:110
+msgid "The template tag method %1$s registered by theme component %2$s must either be a callable or an array."
+msgstr ""
+
+#. translators: 1: template tag method name, 2: component class name
+#: ../kpbsd-codebase/inc/Template_Tags.php:121
+msgid "The template tag method %1$s registered by theme component %2$s conflicts with an already registered template tag of the same name."
+msgstr ""
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: ../kpbsd-codebase/inc/Theme.php:57
+msgid "The theme component %1$s does not implement the %2$s interface."
+msgstr ""
+
+#. translators: %s: slug
+#: ../kpbsd-codebase/inc/Theme.php:120
+msgid "No theme component with the slug %s exists."
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/content/entry-attachment.php:33, ../kpbsd-codebase/template-parts/content/entry.php:35, ../kpbsd-codebase/template-parts/content/entry_category.php:35
+msgid "Previous:"
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/content/entry-attachment.php:43, ../kpbsd-codebase/template-parts/content/entry.php:36, ../kpbsd-codebase/template-parts/content/entry_category.php:36
+msgid "Next:"
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/content/entry-attachment.php:49
+msgid "Post navigation"
+msgstr ""
+
+#. translators: %s: post title
+#: ../kpbsd-codebase/template-parts/content/entry_actions.php:21
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: post title
+#: ../kpbsd-codebase/template-parts/content/entry_actions.php:40
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: ../kpbsd-codebase/template-parts/content/entry_content.php:18
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/content/entry_content.php:31
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: post author
+#: ../kpbsd-codebase/template-parts/content/entry_meta.php:76
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#. translators: %s: post author
+#: ../kpbsd-codebase/template-parts/content/entry_meta.php:79
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: %s: post parent title
+#: ../kpbsd-codebase/template-parts/content/entry_meta.php:95
+msgctxt "post parent"
+msgid "In %s"
+msgstr ""
+
+#. translators: %s: post parent title
+#: ../kpbsd-codebase/template-parts/content/entry_meta.php:98
+msgctxt "post parent"
+msgid "in %s"
+msgstr ""
+
+#. translators: separator between taxonomy terms
+#: ../kpbsd-codebase/template-parts/content/entry_taxonomies.php:24
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: %s: list of taxonomy terms
+#: ../kpbsd-codebase/template-parts/content/entry_taxonomies.php:31
+msgid "Category: %s"
+msgstr ""
+
+#. translators: %s: list of taxonomy terms
+#: ../kpbsd-codebase/template-parts/content/entry_taxonomies.php:37
+msgid "Tags: %s"
+msgstr ""
+
+#. translators: %s: taxonomy name
+#: ../kpbsd-codebase/template-parts/content/entry_taxonomies.php:44
+msgid "%s:"
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/content/error-404.php:16
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/content/error-404.php:27
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: ../kpbsd-codebase/template-parts/content/error-404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/content/error-500.php:14
+msgid "Oops! Something went wrong."
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/content/error-offline.php:14
+msgid "Oops! It looks like you&#8217;re offline."
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/content/error.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/content/error.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/content/error.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. translators: %s: search query
+#: ../kpbsd-codebase/template-parts/content/page_header.php:41
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/content/page_header.php:22
+msgid "Nothing Found"
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/content/page_header.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/content/pagination.php:13
+msgctxt "previous set of search results"
+msgid "Previous"
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/content/pagination.php:14
+msgctxt "next set of search results"
+msgid "Next"
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/content/pagination.php:15
+msgid "Page navigation"
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/header/navigation.php:16
+msgid "Main menu"
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/header/navigation.php:39
+msgid "Open menu"
+msgstr ""
+
+#: ../kpbsd-codebase/template-parts/header/navigation.php:49
+msgid "Menu"
+msgstr ""
