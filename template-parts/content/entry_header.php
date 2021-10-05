@@ -20,8 +20,4 @@ if ( ! is_front_page() ) {
 	get_template_part( 'template-parts/content/entry_title', get_post_type() );
 }
 
-if ( ! is_front_page() && ! is_page() ) {
-	get_template_part( 'template-parts/content/entry_meta', get_post_type() );
-}
-
 echo ( '</header><!-- .entry-header -->' );
