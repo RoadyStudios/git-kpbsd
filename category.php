@@ -23,9 +23,7 @@ kpbsd_codebase()->print_styles( 'kpbsd-codebase-content' );
 
 			get_template_part( 'template-parts/content/page_header' );
 
-			echo "<div class='category-grid' aria-labelledby='";
-			post - the_ID();
-			echo "'>";
+			echo "<div class='category-grid'>";
 			while ( have_posts() ) {
 				the_post();
 
