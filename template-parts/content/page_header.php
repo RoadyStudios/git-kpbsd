@@ -45,6 +45,16 @@ if ( is_404() ) {
 		</h1>
 	</header><!-- .page-header -->
 	<?php
+} elseif ( is_category( '173' ) ) {
+	?>
+	<header class="page-header">
+		<?php
+			single_cat_title( '<h1 class="page-title">', '</h1>' );
+		?>
+		<h3>&nbsp;To have a scholarship opportunity added, please contact <a href="mailto:JTomrdle@kpbsd.k12.ak.us" alt="email Jackie Tomrdle">Jackie Tomrdle</a>.
+		</h3>
+	</header><!-- .page-header -->
+	<?php
 } elseif ( is_archive() ) {
 	?>
 	<header class="page-header">

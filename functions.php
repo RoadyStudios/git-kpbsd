@@ -102,3 +102,87 @@ function cat_post( $atts ) {
 	}
 	return $output;
 }
+
+// BoardDocs API call for Document Library.
+if ( ! wp_next_scheduled( 'update_dlp_document_list' ) ) {
+	wp_schedule_event( time(), 'weekly', 'get_boarddocs_from_api' );
+}
+add_action( 'wp_ajax_nopriv_get_boarddocs_from_api', 'get_boarddocs_from_api' );
+add_action( 'wp_ajax_get_boarddocs_from_api', 'get_boarddocs_from_api' );
+/** Creating our BoardDocs API function */
+function get_boarddocs_from_api() {
+
+	$boarddocs = [];
+
+	$results = wp_remote_retrieve_body( wp_remote_get( 'https://api.kpbsd.k12.ak.us/boarddocs/v1/onlinepolicy/exhibits' ) );
+
+	$results = json_decode( $results );
+
+	if ( ! is_array( $results ) || empty( $results ) ) {
+		return false;
+	}
+
+	$boarddocs[] = $results;
+
+	foreach ( $boarddocs[0] as $dlp_document ) {
+
+		$dlp_document_slug = sanitize_title( $dlp_document->number . '-' . $dlp_document->title );
+
+		$dlp_document_title = ( $dlp_document->number . ' ' . $dlp_document->title );
+
+		$existing_dlp_document = get_page_by_path( $dlp_document_slug, 'OBJECT', 'dlp_document' );
+
+		if ( null === $existing_dlp_document ) {
+
+			$inserted_dlp_document = wp_insert_post(
+				[
+					'post_name'   => $dlp_document_slug,
+					'post_title'  => $dlp_document_title,
+					'post_type'   => 'dlp_document',
+					'post_status' => 'publish',
+				]
+			);
+
+			wp_set_object_terms( $inserted_dlp_document, 'board-policy', 'doc_categories', false );
+
+			if ( is_wp_error( $inserted_dlp_document ) ) {
+				continue;
+			}
+
+			$fillable = [
+				'field_6171a592587c7'  => 'id',
+				'_dlp_direct_link_url' => 'link',
+				'field_6171a637587c9'  => 'number',
+				'field_6171a64a587ca'  => 'section',
+				'field_6171a65a587cb'  => 'title',
+				'field_6172de8c9928a'  => 'last_revised',
+			];
+
+			foreach ( $fillable as $key => $name ) {
+				update_field( $key, $dlp_document->$name, $inserted_dlp_document );
+			}
+		}else {
+			$existing_dlp_document_id        = $existing_dlp_document->ID;
+			$existing_dlp_document_timestamp = get_field( 'last_revised', $existing_dlp_document_id );
+
+			if ( $dlp_document->updated_at >= $existing_dlp_document_timestamp ) {
+				$fillable = [
+					'field_6171a592587c7'  => 'id',
+					'_dlp_direct_link_url' => 'link',
+					'field_6171a637587c9'  => 'number',
+					'field_6171a64a587ca'  => 'section',
+					'field_6171a65a587cb'  => 'title',
+					'field_6172de8c9928a'  => 'last_revised',
+				];
+
+				foreach ( $fillable as $key => $name ) {
+					update_field( $key, $dlp_document->$name, $existing_dlp_document_id );
+				}
+			}
+		}
+
+		update_post_meta( $inserted_dlp_document, '_dlp_document_link_type', 'url', 'none' );
+
+	}
+
+}

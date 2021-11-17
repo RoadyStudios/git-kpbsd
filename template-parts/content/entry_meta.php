@@ -39,7 +39,7 @@ if ( 'post' === $post_type_obj->name || $post_type_obj->has_archive ) {
 // esc_html( get_the_author())
 // );
 // }
-
+// .
 $parent_string = '';
 
 // Show parent post only if available and if the post type is 'attachment'.
@@ -60,7 +60,6 @@ if ( ! empty( $post->post_parent ) && 'attachment' === get_post_type() ) {
 			<?php
 			printf(
 				/* translators: %s: post date */
-
 				$time_string // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			);
 			?>

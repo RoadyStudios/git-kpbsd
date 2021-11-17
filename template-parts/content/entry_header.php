@@ -16,8 +16,14 @@ if ( ! is_front_page() ) {
 	get_template_part( 'template-parts/content/entry_title', get_post_type() );
 }
 
-if ( ! is_front_page() && ! is_page() ) {
+if ( ! is_front_page() && ! is_page() && ! is_category( '173' ) ) {
 	get_template_part( 'template-parts/content/entry_meta', get_post_type() );
+}
+
+if ( is_category( '173' ) ) {
+	echo ( '<div class="entry-meta"><strong>Expires On:</strong> ' );
+	echo do_shortcode( '[postexpirator]' );
+	echo ( '</div>' );
 }
 
 if ( ! is_search() ) {

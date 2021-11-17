@@ -237,25 +237,25 @@ msgid "Pages:"
 msgstr ""
 
 #. translators: %s: post author
-#: ../kpbsd-codebase/template-parts/content/entry_meta.php:76
+#: ../kpbsd-codebase/template-parts/content/entry_meta.php:75
 msgctxt "post author"
 msgid "By %s"
 msgstr ""
 
 #. translators: %s: post author
-#: ../kpbsd-codebase/template-parts/content/entry_meta.php:79
+#: ../kpbsd-codebase/template-parts/content/entry_meta.php:78
 msgctxt "post author"
 msgid "by %s"
 msgstr ""
 
 #. translators: %s: post parent title
-#: ../kpbsd-codebase/template-parts/content/entry_meta.php:95
+#: ../kpbsd-codebase/template-parts/content/entry_meta.php:94
 msgctxt "post parent"
 msgid "In %s"
 msgstr ""
 
 #. translators: %s: post parent title
-#: ../kpbsd-codebase/template-parts/content/entry_meta.php:98
+#: ../kpbsd-codebase/template-parts/content/entry_meta.php:97
 msgctxt "post parent"
 msgid "in %s"
 msgstr ""
