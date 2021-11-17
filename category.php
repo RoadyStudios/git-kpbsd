@@ -1,4 +1,4 @@
-f<?php
+<?php
 /**
  * The template for displaying category archives.
  *
