@@ -65,7 +65,7 @@ require get_template_directory() . '/inc/functions.php';
 // Initialize the theme.
 call_user_func( 'WP_Rig\WP_Rig\kpbsd_codebase' );
 
-// create shortcode for emergency notification posts on top header
+// create shortcode for emergency notification posts on top header.
 add_shortcode( 'categorypost', 'cat_post' );
 
 function cat_post( $atts ) {
@@ -161,7 +161,7 @@ function get_boarddocs_from_api() {
 			foreach ( $fillable as $key => $name ) {
 				update_field( $key, $dlp_document->$name, $inserted_dlp_document );
 			}
-		}else {
+		} else {
 			$existing_dlp_document_id        = $existing_dlp_document->ID;
 			$existing_dlp_document_timestamp = get_field( 'last_revised', $existing_dlp_document_id );
 
