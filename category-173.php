@@ -20,23 +20,46 @@ kpbsd_codebase()->print_styles( 'kpbsd-codebase-content' );
 	<main id="primary" class="site-main">
 		<?php
 
-		$args = array(
-			'order'    => 'ASC',
-			'meta_key' => '_expiration_date',
+		$myargs = array(
+			'meta_key' => '_expiration-date',
 			'orderby'  => 'meta_value',
+			'order'    => 'ASC',
 		);
 
-		$scholar_query = new WP_Query( $args );
+		query_posts($myargs);
 
-		if ( $scholar_query->have_posts() ) {
+		if ( have_posts() ) {
 
 			get_template_part( 'template-parts/content/page_header' );
 
 			echo "<div class='category-grid'>";
 
-			while ( $scholar_query->have_posts() ) {
-				$scholar_query->the_post();
-				get_template_part( 'template-parts/content/entry_category', get_post_type() );
+			while ( have_posts() ) {
+				the_post();
+				?>
+
+				<article aria-labelledby="post-<?php the_title(); ?>" id="post-<?php the_ID(); ?>" <?php post_class( 'entry' ); ?>>
+
+				<?php
+
+				echo ( '<header class="entry-header">' );
+				the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+
+				echo ( '<div class="entry-summary">' );
+				the_excerpt();
+				echo ( '</div>' );
+
+				echo ( '<div class="entry-meta"><strong>Expires On:</strong> ' );
+				echo do_shortcode( '[postexpirator]' );
+				echo ( '</div>' );
+
+				echo ( '</header><!-- .entry-header-->' );
+
+				?>
+
+				</article><!-- #post-<?php the_ID(); ?> -->
+				<?php
+
 			}
 
 			echo '</div>';
