@@ -28,6 +28,17 @@ namespace WP_Rig\WP_Rig;
 	?>
 
 	<?php wp_head(); ?>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src=https://www.googletagmanager.com/gtag/js?id=G-908JKWR48R></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-908JKWR48R');
+</script>
+
 </head>
 
 <body <?php body_class(); ?>>

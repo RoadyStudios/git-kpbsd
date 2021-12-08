@@ -31,7 +31,7 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: ../kpbsd-codebase/header.php:36
+#: ../kpbsd-codebase/header.php:47
 msgid "Skip to content"
 msgstr ""
 
