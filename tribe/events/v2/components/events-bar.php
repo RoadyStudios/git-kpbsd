@@ -29,7 +29,7 @@ if ( empty( $disable_event_search ) ) {
 }
 ?>
 <header class="entry-header">
-	<h1 class="entry-title">Districtwide Calendar</h1>
+	<h1 class="entry-title">Calendar of Events</h1>
 </header><!-- .page-header -->
 <div
 	<?php tribe_classes( $classes ); ?>

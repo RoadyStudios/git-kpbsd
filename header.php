@@ -58,7 +58,11 @@ namespace WP_Rig\WP_Rig;
 		<?php get_template_part( 'template-parts/header/navigation' ); ?>
 
 		<div class="emergencies">
-			<?php echo do_shortcode( '[categorypost cat="emergencies" posts_per_page="1"]' ); ?>
+			<?php query_posts('cat=91'); ?>
+			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+				<?php the_content(); ?>
+			<?php endwhile; endif; ?>
+			<?php wp_reset_query(); ?>
 		</div>
 
 		<?php get_template_part( 'template-parts/header/custom_header' ); ?>
