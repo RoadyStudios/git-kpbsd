@@ -21,6 +21,7 @@ kpbsd_codebase()->print_styles( 'kpbsd-codebase-content' );
 		<?php
 
 		$myargs = array(
+			'cat'      => '173',
 			'meta_key' => '_expiration-date',
 			'orderby'  => 'meta_value',
 			'order'    => 'ASC',

@@ -57,13 +57,14 @@ namespace WP_Rig\WP_Rig;
 
 		<?php get_template_part( 'template-parts/header/navigation' ); ?>
 
+		<?php query_posts('cat=91'); ?>
+		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<div class="emergencies">
-			<?php query_posts('cat=91'); ?>
-			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-				<?php the_content(); ?>
-			<?php endwhile; endif; ?>
-			<?php wp_reset_query(); ?>
+			<h1><a href="<?php echo esc_url( get_permalink() ); ?>" rel="home"><?php the_title(); ?></a></h1>
+			<?php the_content(); ?>
 		</div>
+		<?php endwhile; endif; ?>
+		<?php wp_reset_query(); ?>
 
 		<?php get_template_part( 'template-parts/header/custom_header' ); ?>
 
