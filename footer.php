@@ -28,7 +28,7 @@ namespace WP_Rig\WP_Rig;
 		</div>
 		<div class="google-maps-schools">
 			<div class="overlay" onClick="style.pointerEvents='none'"></div>
-			<iframe src="https://www.google.com/maps/d/embed?mid=1vWpuE74SBo9jh9mOSQIbdyimSYgOzIur" style="position:relative; top:-46px; border:none;" width="100%" height="450"></iframe>
+			<iframe title="Google Map with all KPBSD schools pinned" src="https://www.google.com/maps/d/embed?mid=1vWpuE74SBo9jh9mOSQIbdyimSYgOzIur" style="position:relative; top:-46px; border:none;" width="100%" height="450"></iframe>
 		</div>
 	</div>
 	<div class="full-width-color-divider"></div>
