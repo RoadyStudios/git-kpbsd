@@ -1,4 +1,4 @@
-# Copyright (C) 2021 KPBSD CodeBase
+# Copyright (C) 2022 KPBSD CodeBase
 # This file is distributed under the same license as the KPBSD CodeBase package.
 msgid ""
 msgstr ""

@@ -42,6 +42,7 @@ namespace WP_Rig\WP_Rig;
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+<script async src="https://siteimproveanalytics.com/js/siteanalyze_6014905.js"></script>
 
 </body>
 </html>

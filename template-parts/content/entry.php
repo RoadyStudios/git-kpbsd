@@ -9,7 +9,7 @@ namespace WP_Rig\WP_Rig;
 
 ?>
 
-<article aria-label="post-<?php the_ID(); ?>" id="post-<?php the_ID(); ?>" <?php post_class( 'entry' ); ?>>
+<article aria-label="<?php the_ID(); ?>" id="post-<?php the_ID(); ?>" <?php post_class( 'entry' ); ?>>
 
 	<?php
 	get_template_part( 'template-parts/content/entry_header', get_post_type() );
