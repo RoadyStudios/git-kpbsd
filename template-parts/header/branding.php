@@ -26,6 +26,7 @@ namespace WP_Rig\WP_Rig;
 			<a href="http://www.facebook.com/kpbsd"><img src="https://kpbsd.org/wp-content/uploads/quick-icons-facebook.png" alt="facebook icon"></a>
 			<a href="http://www.twitter.com/kpbsd"><img src="https://kpbsd.org/wp-content/uploads/quick-icons-twitter.png" alt="twitter icon"></a>
 			<a href="https://www.youtube.com/KPBSDvideos"><img src="https://kpbsd.org/wp-content/uploads/quick-icons-youtube.png" alt="youtube icon"></a>
+			<a href="https://kpbsd.zoom.us/"><img src="https://kpbsd.org/wp-content/uploads/quick-icons-zoom.png" alt="zoom icon"></a>
 		</div>
 	</div>
 </div><!-- .site-branding -->

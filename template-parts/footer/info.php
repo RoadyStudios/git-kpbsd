@@ -16,8 +16,9 @@ namespace WP_Rig\WP_Rig;
 	<a href="http://www.twitter.com/kpbsd" title="link to twitter"><img src="https://kpbsd.org/wp-content/uploads/footer_twitter.png" alt="twitter logo" /></a>
 	<a href="http://www.facebook.com/kpbsd" title="link to facebook"><img src="https://kpbsd.org/wp-content/uploads/footer_facebook.png" alt="facebook logo" /></a>
 	<a href="https://www.youtube.com/KPBSDvideos" title="link to youtube"><img src="https://kpbsd.org/wp-content/uploads/footer_youtube.png" alt="youtube logo" /></a>
+	<a href="https://kpbsd.zoom.us/" title="link to zoom"><img src="https://kpbsd.org/wp-content/uploads/footer_zoom.png" alt="zoom logo" /></a>
 </div><!-- .site-footer-social -->
 
 <div class="site-info">
-	<p>&copy;2021 Kenai Peninsula Borough School District | <a href="https://kpbsd.org/kpbsd-accessibility-statement/" title="KPBSD Accessibility Statement">Accessibility Statement</a></p>
+	<p>&copy;2022 Kenai Peninsula Borough School District | <a href="https://kpbsd.org/kpbsd-accessibility-statement/" title="KPBSD Accessibility Statement">Accessibility Statement</a></p>
 </div><!-- .site-info -->
