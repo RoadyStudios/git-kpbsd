@@ -104,7 +104,7 @@ function cat_post( $atts ) {
 }
 
 // BoardDocs API call for Document Library.
-if ( ! wp_next_scheduled( 'update_dlp_document_list' ) ) {
+if ( ! wp_next_scheduled( 'get_boarddocs_from_api' ) ) {
 	wp_schedule_event( time(), 'weekly', 'get_boarddocs_from_api' );
 }
 add_action( 'wp_ajax_nopriv_get_boarddocs_from_api', 'get_boarddocs_from_api' );

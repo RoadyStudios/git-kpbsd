@@ -205,6 +205,10 @@ msgstr ""
 msgid "No theme component with the slug %s exists."
 msgstr ""
 
+#: ../kpbsd-codebase/page-13103.php:3
+msgid "Custom Page Template"
+msgstr ""
+
 #: ../kpbsd-codebase/template-parts/content/entry-attachment.php:33, ../kpbsd-codebase/template-parts/content/entry.php:35, ../kpbsd-codebase/template-parts/content/entry_category.php:35
 msgid "Previous:"
 msgstr ""
