@@ -30,11 +30,12 @@ kpbsd_codebase()->print_styles( 'kpbsd-codebase-content' );
 
 			<?php get_template_part( 'template-parts/content/entry_header', get_post_type() ); ?>
 
-			<p><strong>Expires On:</strong> <?php the_field( 'expires_on' ); ?><br/>
-				<strong>Type:</strong> <?php the_field( 'Type' ); ?><br/>
-				<strong>Who:</strong> <?php the_field( 'Who' ); ?><br/>
-				<strong>Amount:</strong> <?php the_field( 'Amount' ); ?><br/>
-			</p>
+			<div class="entry-content">
+				<p>	<strong>Type:</strong> <?php the_field( 'Type' ); ?><br/>
+					<strong>Who:</strong> <?php the_field( 'Who' ); ?><br/>
+					<strong>Amount:</strong> <?php the_field( 'Amount' ); ?><br/>
+				</p>
+			</div>
 
 			<?php get_template_part( 'template-parts/content/entry_content', get_post_type() ); ?>
 

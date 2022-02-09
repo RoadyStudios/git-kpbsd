@@ -213,11 +213,11 @@ msgstr ""
 msgid "Custom Post Template"
 msgstr ""
 
-#: ../kpbsd-codebase/single-scholarship.php:51, ../kpbsd-codebase/template-parts/content/entry-attachment.php:33, ../kpbsd-codebase/template-parts/content/entry.php:35, ../kpbsd-codebase/template-parts/content/entry_category.php:35
+#: ../kpbsd-codebase/single-scholarship.php:52, ../kpbsd-codebase/template-parts/content/entry-attachment.php:33, ../kpbsd-codebase/template-parts/content/entry.php:35, ../kpbsd-codebase/template-parts/content/entry_category.php:35
 msgid "Previous:"
 msgstr ""
 
-#: ../kpbsd-codebase/single-scholarship.php:52, ../kpbsd-codebase/template-parts/content/entry-attachment.php:43, ../kpbsd-codebase/template-parts/content/entry.php:36, ../kpbsd-codebase/template-parts/content/entry_category.php:36
+#: ../kpbsd-codebase/single-scholarship.php:53, ../kpbsd-codebase/template-parts/content/entry-attachment.php:43, ../kpbsd-codebase/template-parts/content/entry.php:36, ../kpbsd-codebase/template-parts/content/entry_category.php:36
 msgid "Next:"
 msgstr ""
 
