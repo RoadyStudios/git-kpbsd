@@ -17,7 +17,6 @@ namespace WP_Rig\WP_Rig;
 	<div class="legacy-tab-wrapper">
 		<?php echo do_shortcode( '[ctu_ultimate_oxi  id="2"]' ); ?>
 	</div>
-<?php endif; ?>
 
 	<div class="maps">
 		<div class="schools-header">
@@ -32,6 +31,7 @@ namespace WP_Rig\WP_Rig;
 		</div>
 	</div>
 	<div class="full-width-color-divider"></div>
+<?php endif; ?>
 
 	<footer id="colophon" class="site-footer">
 		<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>

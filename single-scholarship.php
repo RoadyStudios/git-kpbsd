@@ -34,7 +34,7 @@ kpbsd_codebase()->print_styles( 'kpbsd-codebase-content' );
 				<p>	<strong>Expires On:</strong> <?php echo do_shortcode( '[postexpirator]' ); ?><br/>
 					<strong>Type:</strong> <?php the_field( 'Type' ); ?><br/>
 					<strong>Who:</strong> <?php the_field( 'Who' ); ?><br/>
-					<strong>Amount:</strong> <?php the_field( 'Amount' ); ?><br/>
+					<strong>Amount:</strong> <?php the_field( 'amount' ); ?><br/>
 				</p>
 			</div>
 
