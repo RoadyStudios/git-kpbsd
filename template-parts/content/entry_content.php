@@ -33,4 +33,5 @@ namespace WP_Rig\WP_Rig;
 		]
 	);
 	?>
+
 </div><!-- .entry-content -->

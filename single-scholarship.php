@@ -31,7 +31,8 @@ kpbsd_codebase()->print_styles( 'kpbsd-codebase-content' );
 			<?php get_template_part( 'template-parts/content/entry_header', get_post_type() ); ?>
 
 			<div class="entry-content">
-				<p>	<strong>Type:</strong> <?php the_field( 'Type' ); ?><br/>
+				<p>	<strong>Expires On:</strong> <?php echo do_shortcode( '[postexpirator]' ); ?><br/>
+					<strong>Type:</strong> <?php the_field( 'Type' ); ?><br/>
 					<strong>Who:</strong> <?php the_field( 'Who' ); ?><br/>
 					<strong>Amount:</strong> <?php the_field( 'Amount' ); ?><br/>
 				</p>
