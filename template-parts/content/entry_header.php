@@ -24,6 +24,13 @@ if ( is_category( '173' ) ) {
 	echo ( '<div class="entry-meta"><strong>Expires On:</strong> ' );
 	echo do_shortcode( '[postexpirator]' );
 	echo ( '</div>' );
+	echo ( '<div class="entry-content"><p><strong>Type:</strong> ' );
+	the_field( 'Type' );
+	echo ( '<br/><strong>Who:</strong> ' );
+	the_field( 'Who' );
+	echo ( '<br/><strong>Amount:</strong> ' );
+	the_field( 'Amount' );
+	echo ( '</p></div>' );
 }
 
 if ( ! is_search() ) {
