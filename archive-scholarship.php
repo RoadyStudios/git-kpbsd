@@ -21,16 +21,20 @@ kpbsd_codebase()->print_styles( 'kpbsd-codebase-content' );
 		<?php
 
 		$myargs = array(
-			'meta_key' => '_expiration-date',
-			'orderby'  => 'meta_value',
-			'order'    => 'ASC',
+			'post_type' => 'scholarship',
+			'meta_key'  => '_expiration-date',
+			'orderby'   => 'meta_value',
+			'order'     => 'ASC',
 		);
 
 		query_posts($myargs);
 
 		if ( have_posts() ) {
 
-			get_template_part( 'template-parts/content/page_header' );
+			echo "<header class='page-header'>";
+			echo "<h1 class='page-title'>KPBSD Scholarship Database</h1>";
+			echo "<h3> To have a scholarship opportunity added, please <a href='https://kpbsd.org/scholarship-submission' title='Submit a Scholarship'>Submit a Scholarship</a></h3>";
+			echo '</header>';
 
 			echo "<div class='category-grid'>";
 
@@ -40,19 +44,21 @@ kpbsd_codebase()->print_styles( 'kpbsd-codebase-content' );
 
 				<article aria-labelledby="post-<?php the_title(); ?>" id="post-<?php the_ID(); ?>" <?php post_class( 'entry' ); ?>>
 
-				<?php
+					<?php
 
-				echo ( '<header class="entry-header">' );
-				the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+						echo ( '<header class="entry-header">' );
+						the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 
-				echo ( '<div class="entry-meta"><strong>Expires On:</strong> ' );
-				echo do_shortcode( '[postexpirator]' );
-				echo ( '</div>' );
+						echo ( '<div class="entry-meta"><strong>Expires On:</strong> ' );
+						echo do_shortcode( '[postexpirator]' );
+						echo ( '</div>' );
 
-				echo ( '</header><!-- .entry-header-->' );
-				?>
+						echo ( '</header><!-- .entry-header-->' );
+
+					?>
 
 				</article><!-- #post-<?php the_ID(); ?> -->
+
 				<?php
 
 			}
@@ -70,7 +76,9 @@ kpbsd_codebase()->print_styles( 'kpbsd-codebase-content' );
 		wp_reset_query();
 
 		?>
+
 	</main><!-- #primary -->
+
 <?php
 get_sidebar();
 get_footer();
