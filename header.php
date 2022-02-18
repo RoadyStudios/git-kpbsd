@@ -48,13 +48,6 @@ namespace WP_Rig\WP_Rig;
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'kpbsd-codebase' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="announcement">
-			<a href="https://www.kpbsd.k12.ak.us" title="KPBSD current site">
-				<img src="https://kpbsd.org/wp-content/uploads/launch/21-0806_launch-banner_thank-you.jpg" alt="launch banner - thank you"></a>
-				<p>
-					Comments? Found a bug? Broken link? <a href="https://forms.office.com/r/D0hdz56pvJ" target="_blank" title="Comment box">Please let us know</a>.
-				</p>
-		</div>
 
 		<?php get_template_part( 'template-parts/header/navigation' ); ?>
 
