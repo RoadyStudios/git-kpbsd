@@ -20,12 +20,12 @@ namespace WP_Rig\WP_Rig;
 
 	<div class="box-icon-wrapper">
 		<div class="quick-icons">
-			<a href="https://kpbsd.instructure.com/"><img src="https://kpbsd.org/wp-content/uploads/core-graphics/quick-icons-canvas.png" alt="canvas icon"></a>
-			<a href="http://mail.g.kpbsd.org/"><img src="https://kpbsd.org/wp-content/uploads/core-graphics/quick-icons-gmail.png" alt="gmail icon"></a>
-			<a href="http://drive.google.com/a/g.kpbsd.org/"><img src="https://kpbsd.org/wp-content/uploads/core-graphics/quick-icons-google-drive.png" alt="google drive icon"></a>
-			<a href="https://kpbsd.org/students-parents/powerschool/"><img src="https://kpbsd.org/wp-content/uploads/core-graphics/quick-icons-powerschool.png" alt="powerschool icon"></a>
-			<a href="https://kpbsd.org/counselor-corner-and-onestop/"><img src="https://kpbsd.org/wp-content/uploads/core-graphics/quick-icons-onestop.png" alt="onestop icon"></a>
-			<a href="https://kpbsd.zoom.us/"><img src="https://kpbsd.org/wp-content/uploads/core-graphics/quick-icons-zoom.png" alt="zoom icon"></a>
+			<a href="https://kpbsd.instructure.com/" target="_blank"><img src="https://kpbsd.org/wp-content/uploads/core-graphics/quick-icons-canvas.png" alt="canvas icon"></a>
+			<a href="http://mail.g.kpbsd.org/" target="_blank"><img src="https://kpbsd.org/wp-content/uploads/core-graphics/quick-icons-gmail.png" alt="gmail icon"></a>
+			<a href="http://drive.google.com/a/g.kpbsd.org/" target="_blank"><img src="https://kpbsd.org/wp-content/uploads/core-graphics/quick-icons-google-drive.png" alt="google drive icon"></a>
+			<a href="https://kpbsd.org/students-parents/powerschool/" target="_blank"><img src="https://kpbsd.org/wp-content/uploads/core-graphics/quick-icons-powerschool.png" alt="powerschool icon"></a>
+			<a href="https://kpbsd.org/counselor-corner-and-onestop/" target="_blank"><img src="https://kpbsd.org/wp-content/uploads/core-graphics/quick-icons-onestop.png" alt="onestop icon"></a>
+			<a href="https://kpbsd.zoom.us/" target="_blank"><img src="https://kpbsd.org/wp-content/uploads/core-graphics/quick-icons-zoom.png" alt="zoom icon"></a>
 		</div>
 	</div>
 </div><!-- .site-branding -->

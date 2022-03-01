@@ -34,6 +34,7 @@ kpbsd_codebase()->print_styles( 'kpbsd-codebase-content' );
 			echo "<header class='page-header'>";
 			echo "<h1 class='page-title'>KPBSD Scholarship Database</h1>";
 			echo "<h3> To have a scholarship opportunity added, please <a href='https://kpbsd.org/scholarship-submission' title='Submit a Scholarship'>Submit a Scholarship</a></h3>";
+			echo "<p> If you have questions or need assistance, contact <a href='mailto:jtomrdle@kpbsd.k12.ak.us' title='email Jackie Tomrdle'>Jackie Tomrdle</a></p>";
 			echo '</header>';
 
 			echo "<div class='category-grid'>";
