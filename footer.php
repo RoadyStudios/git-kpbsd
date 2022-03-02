@@ -46,5 +46,3 @@ namespace WP_Rig\WP_Rig;
 
 </body>
 </html>
-
-<!-- the old google map embed - missing hope https://www.google.com/maps/d/embed?mid=1qe9o77Wi3M_prCCe5UFGdWg7keA&f=l -->
