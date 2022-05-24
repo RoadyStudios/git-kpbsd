@@ -15,6 +15,9 @@ kpbsd_codebase()->print_styles( 'kpbsd-codebase-content' );
 
 ?>
 	<main id="primary" class="site-main">
+		<p>
+			&nbsp;&nbsp;Are you searching for Documents or Forms? For more focused results, try <a href="https://kpbsd.org/document-library/" title="Search Docs and Forms">searching within Docs &amp; Forms</a>.
+		</p>
 		<?php
 		if ( have_posts() ) {
 

@@ -37,7 +37,7 @@ namespace WP_Rig\WP_Rig;
 		gtag('js', new Date());
 
 		gtag('config', 'G-908JKWR48R');
-</script>
+	</script>
 
 </head>
 

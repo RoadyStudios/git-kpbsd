@@ -32,9 +32,11 @@ kpbsd_codebase()->print_styles( 'kpbsd-codebase-content' );
 
 			<div class="entry-content">
 				<p>	<strong>Expires On:</strong> <?php echo do_shortcode( '[postexpirator]' ); ?><br/>
-					<strong>Type:</strong> <?php the_field( 'Type' ); ?><br/>
-					<strong>Who:</strong> <?php the_field( 'Who' ); ?><br/>
-					<strong>Amount:</strong> <?php the_field( 'amount' ); ?><br/>
+					<strong>Scholarship Provider:</strong> <?php the_field( 'scholarship_provider' ); ?><br/>
+					<strong>Career Choice:</strong> <?php the_field( 'career_choice' ); ?><br/>
+					<strong>Geographic Limitations:</strong> <?php the_field( 'geographic_limitations' ); ?><br/>
+					<strong>Who Can Apply:</strong> <?php the_field( 'who_can_apply' ); ?><br/>
+					<strong>Dollar Amount:</strong> <?php the_field( 'dollar_amount' ); ?><br/>
 				</p>
 			</div>
 
