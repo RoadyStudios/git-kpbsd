@@ -9,8 +9,8 @@ namespace WP_Rig\WP_Rig;
 
 ?>
 
-<div class="site-branding header-bkgd-slider-wrapper">
+<div class="site-branding header-library-wrapper">
 
-	<h1>I am the branding-library-page.php file</h1>
+	<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?> Library</a></p>
 
 </div><!-- .site-branding -->
