@@ -34,10 +34,10 @@ kpbsd_codebase()->print_styles( 'kpbsd-codebase-content' );
 				<div class="wp-block-column z-solo" style="flex-basis:75%">
 					<?php echo do_shortcode( '[fe_chips mobile="yes" title="Applied Filters"]' ); ?>
 					<?php
-						if ( have_posts() ) {
+					if ( have_posts() ) {
 							get_template_part( 'template-parts/content/page_header' );
 							echo "<div class='category-grid'>";
-							while ( have_posts() ) {
+						while ( have_posts() ) {
 								the_post();
 							?>
 
