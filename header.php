@@ -64,7 +64,7 @@ namespace WP_Rig\WP_Rig;
 		<?php
 		if ( is_front_page() ) {
 			get_template_part( 'template-parts/header/branding-front-page', get_post_type() );
-		} elseif ( is_page_template( 'library' ) ) {
+		} elseif ( is_page_template() ) {
 			get_template_part( 'template-parts/header/branding-library-page', get_post_type() );
 		} else {
 			get_template_part( 'template-parts/header/branding', get_post_type() );
