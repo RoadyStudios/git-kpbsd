@@ -11,6 +11,6 @@ namespace WP_Rig\WP_Rig;
 
 <div class="site-branding header-library-wrapper">
 
-	<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?> Library</a></p>
+	<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?> Library</a></h1>
 
 </div><!-- .site-branding -->

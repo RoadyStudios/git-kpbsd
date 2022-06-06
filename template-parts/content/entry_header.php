@@ -11,12 +11,12 @@ namespace WP_Rig\WP_Rig;
 
 <?php
 
-if ( ! is_front_page() ) {
+if ( ! is_front_page() && ! is_page_template( 'library' ) ) {
 	echo ( '<header class="entry-header">' );
 	get_template_part( 'template-parts/content/entry_title', get_post_type() );
 }
 
-if ( ! is_front_page() && ! is_page() && ! is_category( '173' ) ) {
+if ( ! is_front_page() && ! is_page() && ! is_category( '173' ) && ! is_page_template( 'library' ) ) {
 	get_template_part( 'template-parts/content/entry_meta', get_post_type() );
 }
 

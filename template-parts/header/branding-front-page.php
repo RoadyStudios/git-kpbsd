@@ -18,4 +18,5 @@ namespace WP_Rig\WP_Rig;
 	<div class="box-slider-wrapper">
 		<?php echo do_shortcode( '[smartslider3 slider=4]' ); ?>
 	</div>
+
 </div><!-- .site-branding -->

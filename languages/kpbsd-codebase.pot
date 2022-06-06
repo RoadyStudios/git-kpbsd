@@ -31,6 +31,10 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
+#: ../kpbsd-codebase/custom-library-template.php:3
+msgid "Library"
+msgstr ""
+
 #: ../kpbsd-codebase/header.php:47
 msgid "Skip to content"
 msgstr ""

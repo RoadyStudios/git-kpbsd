@@ -63,14 +63,4 @@ if ( is_404() ) {
 		?>
 	</header><!-- .page-header -->
 	<?php
-} elseif ( is_page( '15933' ) ) {
-	?>
-	<header class="page-header">
-		<?php
-			single_cat_title( '<h1 class="page-title">', '</h1>' );
-		?>
-		<h3>&nbsp;I am a test from page_header.php</a>.
-		</h3>
-	</header><!-- .page-header -->
-	<?php
 }
