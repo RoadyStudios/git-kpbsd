@@ -37,7 +37,7 @@ namespace WP_Rig\WP_Rig;
 	<footer id="colophon" class="site-footer">
 		<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 		<div class="mission-statement">
-			<p>The mission of the Kenai Peninsula Borough School District is to empower all learners to positively shape their futures.</p>
+			<p>Our Mission: <em>Supporting students in life success</em></p>
 		</div>
 		<?php get_template_part( 'template-parts/footer/footer-widgets' ); ?>
 		<?php get_template_part( 'template-parts/footer/info' ); ?>
