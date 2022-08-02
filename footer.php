@@ -18,7 +18,7 @@ namespace WP_Rig\WP_Rig;
 		<?php echo do_shortcode( '[ctu_ultimate_oxi  id="2"]' ); ?>
 	</div>
 
-	<div class="maps">
+	<!--<div class="maps">
 		<div class="schools-header">
 			<h2>KPBSD School Locations</h2>
 			<ul>
@@ -29,7 +29,8 @@ namespace WP_Rig\WP_Rig;
 			<div class="overlay" onClick="style.pointerEvents='none'"></div>
 			<iframe defer title="Google Map with all KPBSD schools pinned" src="https://www.google.com/maps/d/embed?mid=1vWpuE74SBo9jh9mOSQIbdyimSYgOzIur" style="position:relative; top:-46px; border:none;" width="100%" height="450"></iframe>
 		</div>
-	</div>
+	</div>-->
+
 	<div class="full-width-color-divider"></div>
 <?php endif; ?>
 
