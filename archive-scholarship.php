@@ -21,7 +21,7 @@ kpbsd_codebase()->print_styles( 'kpbsd-codebase-content' );
 	<header class='page-header'>
 			<h1 class='page-title'>KPBSD Scholarship Database</h1>
 			<h3> To have a scholarship opportunity added, please <a href='https://kpbsd.org/scholarship-submission' title='Submit a Scholarship'>Submit a Scholarship</a></h3>
-			<p> If you have questions or need assistance, contact <a href='mailto:jtomrdle@kpbsd.k12.ak.us' title='email Jackie Tomrdle'>Jackie Tomrdle</a></p>
+			<!--<p> If you have questions or need assistance, contact <a href='mailto:jtomrdle@kpbsd.k12.ak.us' title='email Jackie Tomrdle'>Jackie Tomrdle</a></p>-->
 		</header>
 
 	<div class="wp-container-1 wp-block-group alignfull has-theme-white-background-color has-background">

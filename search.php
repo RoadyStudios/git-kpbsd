@@ -22,13 +22,13 @@ kpbsd_codebase()->print_styles( 'kpbsd-codebase-content' );
 		if ( have_posts() ) {
 
 			get_template_part( 'template-parts/content/page_header' );
-			echo "<div class='category-grid'>";
+			echo "<div class='wp-block-columns'><div class='wp-block-column></div><div class='wp-block-column z-content'>";
 			while ( have_posts() ) {
 				the_post();
 
 				get_template_part( 'template-parts/content/entry', get_post_type() );
 			}
-			echo '</div>';
+			echo "</div><div class='wp-block-column'></div></div>";
 			get_template_part( 'template-parts/content/pagination' );
 		} else {
 			get_template_part( 'template-parts/content/error' );
