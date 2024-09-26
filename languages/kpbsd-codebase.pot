@@ -1,4 +1,4 @@
-# Copyright (C) 2022 KPBSD CodeBase
+# Copyright (C) 2024 KPBSD CodeBase
 # This file is distributed under the same license as the KPBSD CodeBase package.
 msgid ""
 msgstr ""
@@ -7,6 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Last-Translator: Amos Roady\n"
+"POT-Creation-Date: 2024-09-26 18:42+0000\n"
 "Report-Msgid-Bugs-To: KPBSD CodeBase\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
@@ -209,15 +210,15 @@ msgstr ""
 msgid "No theme component with the slug %s exists."
 msgstr ""
 
-#: ../kpbsd-codebase/single-scholarship.php:3
+#: ../kpbsd-codebase/single-scholarship.php:3, ../kpbsd-codebase/single-student-job.php:3
 msgid "Custom Post Template"
 msgstr ""
 
-#: ../kpbsd-codebase/single-scholarship.php:55, ../kpbsd-codebase/template-parts/content/entry-attachment.php:33, ../kpbsd-codebase/template-parts/content/entry.php:35, ../kpbsd-codebase/template-parts/content/entry_category.php:35
+#: ../kpbsd-codebase/single-scholarship.php:55, ../kpbsd-codebase/single-student-job.php:53, ../kpbsd-codebase/template-parts/content/entry-attachment.php:33, ../kpbsd-codebase/template-parts/content/entry.php:35, ../kpbsd-codebase/template-parts/content/entry_category.php:35
 msgid "Previous:"
 msgstr ""
 
-#: ../kpbsd-codebase/single-scholarship.php:56, ../kpbsd-codebase/template-parts/content/entry-attachment.php:43, ../kpbsd-codebase/template-parts/content/entry.php:36, ../kpbsd-codebase/template-parts/content/entry_category.php:36
+#: ../kpbsd-codebase/single-scholarship.php:56, ../kpbsd-codebase/single-student-job.php:54, ../kpbsd-codebase/template-parts/content/entry-attachment.php:43, ../kpbsd-codebase/template-parts/content/entry.php:36, ../kpbsd-codebase/template-parts/content/entry_category.php:36
 msgid "Next:"
 msgstr ""
 

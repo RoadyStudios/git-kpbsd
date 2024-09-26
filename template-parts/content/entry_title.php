@@ -10,8 +10,8 @@ namespace WP_Rig\WP_Rig;
 if ( is_singular( get_post_type() ) ) {
 	the_title( '<h1 class="entry-title">', '</h1>' );
 } else { ?>
-<h2 class="entry-title" aria-label="<?php the_title_attribute(); ?>">
-	<a href="<?php the_permalink(); ?>" rel="bookmark">
+<h2 class="entry-title" alt="<?php the_title_attribute(); ?>">
+	<a href="<?php the_permalink(); ?>" aria-label="<?php the_title_attribute(); ?>" rel="bookmark">
 		<?php the_title(); ?>
 	</a>
 </h2>

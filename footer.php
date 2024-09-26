@@ -35,7 +35,7 @@ namespace WP_Rig\WP_Rig;
 <?php endif; ?>
 
 	<footer id="colophon" class="site-footer">
-		<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+		<h2 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h2>
 		<div class="mission-statement">
 			<p>Our Mission: <em>Supporting students in life success</em></p>
 		</div>

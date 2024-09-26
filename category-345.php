@@ -19,18 +19,49 @@ kpbsd_codebase()->print_styles( 'kpbsd-codebase-content' );
 ?>
 	<main id="primary" class="site-main">
 		<?php
+
+		$myargs = array(
+			'cat'      => '345',
+		);
+
+		query_posts($myargs);
+
 		if ( have_posts() ) {
+
 			get_template_part( 'template-parts/content/page_header' );
-			echo "<div class='category-grid alignwide'>";
+
+			echo "<div class='custom-category-grid'>";
+
 			while ( have_posts() ) {
 				the_post();
-				get_template_part( 'template-parts/content/entry_category', get_post_type() );
+				?>
+
+				<article aria-labelledby="post-<?php the_title(); ?>" id="post-<?php the_ID(); ?>" <?php post_class( 'entry' ); ?>>
+
+				<?php
+
+				echo ( '<header class="entry-header">' );
+				the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+				echo ( '</header><!-- .entry-header-->' );
+				?>
+
+				</article><!-- #post-<?php the_ID(); ?> -->
+				<?php
+
 			}
+
 			echo '</div>';
+
 			get_template_part( 'template-parts/content/pagination' );
+
 		} else {
+
 			get_template_part( 'template-parts/content/error' );
+
 		}
+
+		wp_reset_query();
+
 		?>
 	</main><!-- #primary -->
 <?php
