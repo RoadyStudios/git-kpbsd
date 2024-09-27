@@ -30,7 +30,8 @@ kpbsd_codebase()->print_styles( 'kpbsd-codebase-content' );
 
 			<?php get_template_part( 'template-parts/content/entry_header', get_post_type() ); ?>
 
-			<div class="entry-content">
+			<div class="acf-content">
+				<p>
 					<strong>Company/Employer:</strong> <?php the_field( 'employer' ); ?><br/>
 					<strong>Job/Position being offered:</strong> <?php the_field( 'jobposition_being_offered' ); ?><br/>
 					<strong>Contact Information:</strong> <?php the_field( 'contact_info' ); ?><br/>

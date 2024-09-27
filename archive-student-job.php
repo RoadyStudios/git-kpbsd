@@ -26,8 +26,7 @@ kpbsd_codebase()->print_styles( 'kpbsd-codebase-content' );
 	<div class="wp-container-1 wp-block-group alignfull has-theme-white-background-color has-background">
 		<div class="wp-block-group__inner-container">
 			<div class="wp-block-columns alignfull">
-				<div class="wp-block-column z-filters" style="flex-basis:25%"></div>
-				<div class="wp-block-column z-solo" style="flex-basis:75%">
+				<div class="wp-block-column job-solo" style="flex-basis:80%">
 					<?php
 					if ( have_posts() ) {
 							get_template_part( 'template-parts/content/page_header' );
